@@ -1,4 +1,5 @@
 var express= require('express')
 var app = express();
 app.use(express.static('public'))
-app.listen(8050,()=> console.log("hi am ok"));
+var port = Number(process.env.PORT || 3001);
+app.listen(port, () => console.log('app listening on port: '+port))
