@@ -1,6 +1,9 @@
 {
   "name": "sample-heroku",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.11.2"
+  }
   "description": "sample app",
   "main": "server.js",
   "scripts": {
@@ -8,6 +11,11 @@
   },
   "author": "",
   "license": "ISC",
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
   "dependencies": {
     "express": "^4.16.2"
   }
